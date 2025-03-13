@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test_library"
-
         tools:targetApi="n">         <!--android:networkSecurityConfig="@xml/network_security_config"-->
         <activity
             android:exported="true"
