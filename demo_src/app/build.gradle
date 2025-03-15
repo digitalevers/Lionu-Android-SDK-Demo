@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdkVersion 33
-    buildToolsVersion "30.0.3"
+    buildToolsVersion "35.0.0"
 
     defaultConfig {
         applicationId "com.example.test_library"
@@ -30,7 +30,8 @@ android {
 }
 
 dependencies {
-    implementation(name: 'lionu', ext: 'aar')
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+    //implementation(name: 'lionu', ext: 'aar') //deprecated
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
