@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         RP.debug = true;
-        //RP.base64SecretKey = "aIlPkPRHwHpmuJj2qCkbCRw6N4+KRcHYpf2VwU33lvU=";
+        RP.base64SecretKey = "aIlPkPRHwHpmuJj2qCkbCRw6N4+KRcHYpf2VwU33lvU=";
         //上报激活
         Button activeBtn = findViewById(R.id.reportActive);
         //Log.d("activeBtn",activeBtn.toString());
